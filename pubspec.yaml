@@ -1,6 +1,6 @@
 name: youtube_metadata
 description: A lightweight⚡ Flutter package that can fetch basic data from a youtube video url including thumbanail url
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/100lvlmaster/youtube_metadata
 
 environment:
@@ -10,7 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.1 # To make the http request , please
+  http: ^0.13.1 # To make the http request
+  html: ^0.15.0 # parse html
 
 dev_dependencies:
   flutter_test:

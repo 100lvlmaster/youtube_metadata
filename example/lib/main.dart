@@ -68,6 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           '''channel name :  ${metaData.authorName} \n\nchannel url :${metaData.authorUrl}
                           ''',
                         ),
+                        Divider(color: Colors.transparent),
+                        Text('description: ${metaData.description}')
                       ],
                     ),
                   ),
